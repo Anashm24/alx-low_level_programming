@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main is the entry point
+ * main - Entry point
  *
- * discription: C program that prints the pritf function
+ * Description: A C program that prints with the printf function.
  *
- * return: always 0
+ * Return: always 0
  */
 
 int main(void)
