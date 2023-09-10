@@ -1,0 +1,3 @@
+git add . 
+git commit -m "task is done"
+git push
