@@ -12,7 +12,7 @@ int main(void)
 {
 	int dgt = 0;
 
-	while (dgt <= '9')
+	while (dgt <= 9)
 	{
 		printf("%d", dgt);
 		dgt++;
