@@ -11,7 +11,7 @@
 int main(void)
 {
 	int digit = 0;
-	char letter = 'A';
+	char letter = 'a';
 
 	while (digit <= 9)
 	{
@@ -19,7 +19,7 @@ int main(void)
 		digit++;
 	}
 
-	while (letter <= 'F')
+	while (letter <= 'f')
 	{
 		putchar(letter);
 		letter++;
