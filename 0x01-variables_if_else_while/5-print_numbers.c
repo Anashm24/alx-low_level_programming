@@ -10,13 +10,13 @@
 
 int main(void)
 {
-	char ch = '0';
+	int dgt = 0;
 
-	while (ch <= '10')
+	while (dgt <= '9')
 	{
-		putchar(ch);
-		ch++;
+		printf("%d", dgt);
+		dgt++;
 	}
-	putchar('\n');
+	printf('\n');
 	return (0);
 }
