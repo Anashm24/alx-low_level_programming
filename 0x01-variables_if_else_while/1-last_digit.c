@@ -2,16 +2,16 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *
  * main - print the last digit of the number stored in the variable n
  *
- * Descrition: using the print function
+ * Descrition: using the printf function
  *
  * Return: always 0 (success)
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	printf("last digit of ");
