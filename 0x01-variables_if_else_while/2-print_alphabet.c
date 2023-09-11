@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description:  prints the alphabet in lowercase, and then in uppercase using the putchar function
+ * Description:  prints the alphabet in lowercase using the putchar function
  *
  * Return: 0 (success)
  */
@@ -12,7 +12,7 @@ int main(void)
 {
 	char ch = 'a';
 
-	while(ch <= 'z')
+	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
@@ -20,4 +20,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-}	
+}
