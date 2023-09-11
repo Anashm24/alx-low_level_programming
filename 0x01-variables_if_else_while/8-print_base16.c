@@ -21,7 +21,7 @@ int main(void)
 
 	while (letter <= 'f')
 	{
-		putchar(letter'\n');
+		putchar(letter);
 		letter++;
 	}
 
