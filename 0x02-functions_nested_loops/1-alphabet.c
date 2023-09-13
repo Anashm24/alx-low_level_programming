@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point 
+ * print_alphabet - Entry point
  *
- * Description: prints the alphabet, in lowercase
+ * Description: for function print_alphabet
  *
  * Return: always 0 (success)
  */
@@ -11,11 +11,10 @@
 void print_alphabet(void)
 {
 	int alph;
-	for(alph = 'a'; alph <= 'z'; alph++)
+
+	for (alph = 'a'; alph <= 'z'; alph++)
 	{
 		_putchar(alph);
 	}
 	_putchar('\n');
-	
 }
-	
