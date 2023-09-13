@@ -4,16 +4,15 @@
 /**
  * _islower - entry point
  *
- * Description: check 'c' if it is lowercase or not
+ * @c : is the character checked  if it is lowercase or not
  *
  * Return: always 0
  */
 
 int _islower(int c)
 {
-	
-	c = _islower('c');
+	if (c >= 97 && c <= 122)
 		return (1);
-	c = _islower('C');
+	else
 		return (0);
 }
