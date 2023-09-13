@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main.h - Entry point
+ * main - Entry point
  *
  * Descriton: Write a program that prints _putchar
  *
  * Return: always 0 (success)
  */
 
-int main.h(void)
+int main(void)
 {
 	printf("_putchar\n");
 	return (0);
