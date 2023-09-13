@@ -8,7 +8,7 @@
  * Return: always 0 (success)
  */
 
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	int alph;
 	for(alph = 'a'; alph <= 'z'; alph++)
