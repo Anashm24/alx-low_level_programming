@@ -1,8 +1,8 @@
-#ifndef main.h
-#define main.h
+#ifndef "MAIN:H"
+#define "MAIN.H"
 
-#include <stdio.hp>
+#include <stdio.h>
 
-int _puchar(char c);
+int _puchar(char);
 
 #endif
