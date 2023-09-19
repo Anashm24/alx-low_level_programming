@@ -1,20 +1,21 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * print_array - Entry point
- *
- * Description: prints n elements of an array of integers
- * @a : a pointer
- * @n : where the numbers are stored
- *
- * Return: always 0
+ * print_array - writes the character c to stdout
+ * @a: The pointer
+ * @n: The variable
  */
-
 void print_array(int *a, int n)
 {
-	int arr[5] = { 98, 402, -198, 298, -1024 };
+	int i;
 
-	for (n = 0; n < 5; n++)
-		printf("%d", arr[n]);
-	return (0);
+	for (i = 0; i < n; i++)
+	{
+		printf("%d", a[i]);
+		if (i != n - 1)
+		{
+			printf(", ");
+		}
+	}
+	printf("\n");
 }
