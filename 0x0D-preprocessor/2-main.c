@@ -1,13 +1,10 @@
 #include <stdio.h>
 
 /**
- * main : ENTRY point
+ * main - prints the name of the file
  *
- * Description: a program that prints the name of a file
- *
- * Return: 0 success
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	printf("%s\n", __FILE__);
