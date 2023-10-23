@@ -2,14 +2,14 @@
 
 /**
  * print_listint - singly linked list
- * @h: a pointer of type listint_t
+ * @h: a pointer to the first node
  *
  * Return: the number of nodes
  */
 
 size_t print_listint(const listint_t *h)
 {
-	int count = 0;
+	size_ti count = 0;
 
 	while (h != NULL)
 	{
