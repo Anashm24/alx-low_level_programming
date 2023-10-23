@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * print_listint - singly linked list
@@ -9,13 +10,13 @@
 
 size_t print_listint(const listint_t *h)
 {
-	size_ti count = 0;
+	size_t count = 0;
 
 	while (h != NULL)
 	{
 		printf("%d\n", h->n);
 		h = h->next;
-		count++
+		count++;
 	}
 	return (count);
 }
